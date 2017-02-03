@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1719A01E3B604800DA9ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17199F1E3B604800DA9ADC /* AppDelegate.swift */; };
+		7A1719A51E3B604800DA9ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1719A31E3B604800DA9ADC /* Main.storyboard */; };
+		7A1719A71E3B604800DA9ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1719A61E3B604800DA9ADC /* Assets.xcassets */; };
+		7A1719AA1E3B604800DA9ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1719A81E3B604800DA9ADC /* LaunchScreen.storyboard */; };
+		7A1719B51E3B604900DA9ADC /* photoexpressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1719B41E3B604900DA9ADC /* photoexpressoTests.swift */; };
+		7A1719C01E3B604900DA9ADC /* photoexpressoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1719BF1E3B604900DA9ADC /* photoexpressoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A1719B11E3B604900DA9ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1719941E3B604700DA9ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A17199B1E3B604700DA9ADC;
+			remoteInfo = photoexpresso;
+		};
+		7A1719BC1E3B604900DA9ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1719941E3B604700DA9ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A17199B1E3B604700DA9ADC;
+			remoteInfo = photoexpresso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A17199C1E3B604800DA9ADC /* photoexpresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoexpresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A17199F1E3B604800DA9ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1719A41E3B604800DA9ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A1719A61E3B604800DA9ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1719A91E3B604800DA9ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1719AB1E3B604800DA9ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1719B01E3B604900DA9ADC /* photoexpressoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoexpressoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1719B41E3B604900DA9ADC /* photoexpressoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoexpressoTests.swift; sourceTree = "<group>"; };
+		7A1719B61E3B604900DA9ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1719BB1E3B604900DA9ADC /* photoexpressoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoexpressoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1719BF1E3B604900DA9ADC /* photoexpressoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoexpressoUITests.swift; sourceTree = "<group>"; };
+		7A1719C11E3B604900DA9ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1719991E3B604700DA9ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719AD1E3B604900DA9ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719B81E3B604900DA9ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1719931E3B604700DA9ADC = {
+			isa = PBXGroup;
+			children = (
+				7A17199E1E3B604800DA9ADC /* photoexpresso */,
+				7A1719B31E3B604900DA9ADC /* photoexpressoTests */,
+				7A1719BE1E3B604900DA9ADC /* photoexpressoUITests */,
+				7A17199D1E3B604800DA9ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A17199D1E3B604800DA9ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A17199C1E3B604800DA9ADC /* photoexpresso.app */,
+				7A1719B01E3B604900DA9ADC /* photoexpressoTests.xctest */,
+				7A1719BB1E3B604900DA9ADC /* photoexpressoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A17199E1E3B604800DA9ADC /* photoexpresso */ = {
+			isa = PBXGroup;
+			children = (
+				7A17199F1E3B604800DA9ADC /* AppDelegate.swift */,
+				7A1719A31E3B604800DA9ADC /* Main.storyboard */,
+				7A1719A61E3B604800DA9ADC /* Assets.xcassets */,
+				7A1719A81E3B604800DA9ADC /* LaunchScreen.storyboard */,
+				7A1719AB1E3B604800DA9ADC /* Info.plist */,
+			);
+			path = photoexpresso;
+			sourceTree = "<group>";
+		};
+		7A1719B31E3B604900DA9ADC /* photoexpressoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1719B41E3B604900DA9ADC /* photoexpressoTests.swift */,
+				7A1719B61E3B604900DA9ADC /* Info.plist */,
+			);
+			path = photoexpressoTests;
+			sourceTree = "<group>";
+		};
+		7A1719BE1E3B604900DA9ADC /* photoexpressoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1719BF1E3B604900DA9ADC /* photoexpressoUITests.swift */,
+				7A1719C11E3B604900DA9ADC /* Info.plist */,
+			);
+			path = photoexpressoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A17199B1E3B604700DA9ADC /* photoexpresso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1719C41E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpresso" */;
+			buildPhases = (
+				7A1719981E3B604700DA9ADC /* Sources */,
+				7A1719991E3B604700DA9ADC /* Frameworks */,
+				7A17199A1E3B604700DA9ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoexpresso;
+			productName = photoexpresso;
+			productReference = 7A17199C1E3B604800DA9ADC /* photoexpresso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A1719AF1E3B604900DA9ADC /* photoexpressoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1719C71E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpressoTests" */;
+			buildPhases = (
+				7A1719AC1E3B604900DA9ADC /* Sources */,
+				7A1719AD1E3B604900DA9ADC /* Frameworks */,
+				7A1719AE1E3B604900DA9ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1719B21E3B604900DA9ADC /* PBXTargetDependency */,
+			);
+			name = photoexpressoTests;
+			productName = photoexpressoTests;
+			productReference = 7A1719B01E3B604900DA9ADC /* photoexpressoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A1719BA1E3B604900DA9ADC /* photoexpressoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1719CA1E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpressoUITests" */;
+			buildPhases = (
+				7A1719B71E3B604900DA9ADC /* Sources */,
+				7A1719B81E3B604900DA9ADC /* Frameworks */,
+				7A1719B91E3B604900DA9ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1719BD1E3B604900DA9ADC /* PBXTargetDependency */,
+			);
+			name = photoexpressoUITests;
+			productName = photoexpressoUITests;
+			productReference = 7A1719BB1E3B604900DA9ADC /* photoexpressoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1719941E3B604700DA9ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Romain;
+				TargetAttributes = {
+					7A17199B1E3B604700DA9ADC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					7A1719AF1E3B604900DA9ADC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A17199B1E3B604700DA9ADC;
+					};
+					7A1719BA1E3B604900DA9ADC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A17199B1E3B604700DA9ADC;
+					};
+				};
+			};
+			buildConfigurationList = 7A1719971E3B604700DA9ADC /* Build configuration list for PBXProject "photoexpresso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1719931E3B604700DA9ADC;
+			productRefGroup = 7A17199D1E3B604800DA9ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A17199B1E3B604700DA9ADC /* photoexpresso */,
+				7A1719AF1E3B604900DA9ADC /* photoexpressoTests */,
+				7A1719BA1E3B604900DA9ADC /* photoexpressoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A17199A1E3B604700DA9ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1719AA1E3B604800DA9ADC /* LaunchScreen.storyboard in Resources */,
+				7A1719A71E3B604800DA9ADC /* Assets.xcassets in Resources */,
+				7A1719A51E3B604800DA9ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719AE1E3B604900DA9ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719B91E3B604900DA9ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1719981E3B604700DA9ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1719A01E3B604800DA9ADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719AC1E3B604900DA9ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1719B51E3B604900DA9ADC /* photoexpressoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1719B71E3B604900DA9ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1719C01E3B604900DA9ADC /* photoexpressoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A1719B21E3B604900DA9ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A17199B1E3B604700DA9ADC /* photoexpresso */;
+			targetProxy = 7A1719B11E3B604900DA9ADC /* PBXContainerItemProxy */;
+		};
+		7A1719BD1E3B604900DA9ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A17199B1E3B604700DA9ADC /* photoexpresso */;
+			targetProxy = 7A1719BC1E3B604900DA9ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A1719A31E3B604800DA9ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1719A41E3B604800DA9ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A1719A81E3B604800DA9ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1719A91E3B604800DA9ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1719C21E3B604900DA9ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1719C31E3B604900DA9ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1719C51E3B604900DA9ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photoexpresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpresso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A1719C61E3B604900DA9ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = photoexpresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpresso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A1719C81E3B604900DA9ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photoexpressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpressoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photoexpresso.app/photoexpresso";
+			};
+			name = Debug;
+		};
+		7A1719C91E3B604900DA9ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = photoexpressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpressoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photoexpresso.app/photoexpresso";
+			};
+			name = Release;
+		};
+		7A1719CB1E3B604900DA9ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = photoexpressoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpressoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = photoexpresso;
+			};
+			name = Debug;
+		};
+		7A1719CC1E3B604900DA9ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = photoexpressoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = barloufcorp.photoexpressoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = photoexpresso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1719971E3B604700DA9ADC /* Build configuration list for PBXProject "photoexpresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1719C21E3B604900DA9ADC /* Debug */,
+				7A1719C31E3B604900DA9ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1719C41E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1719C51E3B604900DA9ADC /* Debug */,
+				7A1719C61E3B604900DA9ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1719C71E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpressoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1719C81E3B604900DA9ADC /* Debug */,
+				7A1719C91E3B604900DA9ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1719CA1E3B604900DA9ADC /* Build configuration list for PBXNativeTarget "photoexpressoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1719CB1E3B604900DA9ADC /* Debug */,
+				7A1719CC1E3B604900DA9ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1719941E3B604700DA9ADC /* Project object */;
+}
